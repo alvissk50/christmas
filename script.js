@@ -1,5 +1,5 @@
 const nextXmasDate = (currentTime) => {
-  let xmasDate = new Date(currentTime.getFullYear() + "-12-25T00:00:00");
+  let xmasDate = new Date(currentTime.getFullYear() + "-12-24T21:57:00");
   if (currentTime.getTime() > xmasDate.getTime()) {
     let nextYear = currentTime.getFullYear() + 1;
     xmasDate = new Date(nextYear + "-12-25T00:00:00");
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Do something when the countdown ends
     .ifEnded(() => {
      
-      alert("I love U <3!");
+      alert("C nhắn: T thì không định cưới nên chả care. vậy, đích đến cuối cùng của mqh này là gì? cho vui ư ... T cũng không nghĩ xa thế, tương lai không nói trước được nhưng ít nhất cũng đừng vùi dập nó chứ..");
 
     });
 });
